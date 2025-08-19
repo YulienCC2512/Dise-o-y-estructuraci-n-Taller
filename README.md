@@ -2,15 +2,15 @@
 # Taller diseño y estructuración de aplicaciones distribuidas en internet
 
 ## Descripción del Proyecto
-Este proyecto implementa un servidor HTTP simple en Java que puede **servir archivos estáticos** (HTML, CSS, JS, imágenes) y manejar **endpoints tipo API** para solicitudes GET y POST.  
-Sirve como ejemplo de cómo construir un servidor web básico desde cero sin utilizar frameworks.
+Este proyecto implementa un servidor HTTP simple en Java que puede servir archivos estáticos (HTML, CSS, JS) y manejar **endpoints tipo API** para solicitudes GET y POST.  
+
 
 ---
 
 ## Instrucciones 
 
 ### Requisitos
-- Java JDK 8 o superior
+- Java 
 - Git
 - Navegador web
 - Maven (opcional, para manejar dependencias)
