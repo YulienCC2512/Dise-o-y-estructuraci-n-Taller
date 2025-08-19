@@ -57,7 +57,6 @@ public class HttpServer {
         String response;
         String mimeType = "text/html";
 
-        // Manejo de endpoints tipo API
         if (path.startsWith("/app")) {
             if (path.endsWith("/postInfo") && method.equalsIgnoreCase("GET")) {
                 if (query.startsWith("name=")) {
@@ -77,7 +76,7 @@ public class HttpServer {
                 mimeType = "application/json";
             }
         }
-        // Archivos estáticos
+
         else {
             if (path.equals("/")) path = "/index.html";
             response = readFile("www" + path);
