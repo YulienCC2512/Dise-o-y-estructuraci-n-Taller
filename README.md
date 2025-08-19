@@ -20,8 +20,7 @@ Sirve como ejemplo de cómo construir un servidor web básico desde cero sin uti
 ### Instalación
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/tuusuario/java-http-server.git
-cd java-http-server
+git clone https://github.com/YulienCC2512/Diseno-y-estructuracion-Taller.git
 
 javac -d bin src/com/mycompany/ejercicio1/HttpServer.java
 
